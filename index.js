@@ -1,7 +1,10 @@
 // Code your solution in this file!
 function distanceFromHqInBlocks (someValue) {
   //returns the number of blocks given a value
-  return  someValue-42;
+  if (someValue<42){
+    return(42-somevalue);
+  }
+  return(someValue-42);
 }
 
 
